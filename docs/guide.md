@@ -1,6 +1,6 @@
 ---
 layout: default
-title: User Guide
+title: Platform Guide
 parent: Help
 nav_order: 2
 description: "How to read and use SgTxGNN validation reports"

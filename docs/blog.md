@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-nav_order: 7
+nav_order: 11
 description: "SgTxGNN news, updates, and research guides"
 permalink: /blog/
 ---

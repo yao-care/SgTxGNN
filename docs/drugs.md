@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Drug List
-nav_order: 2
+nav_order: 4
 description: "Complete list of 745 Singapore HSA-approved drugs with repurposing predictions"
 permalink: /drugs/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Medium Evidence (L3-L4)
-nav_order: 4
+nav_order: 6
 description: "Drug repurposing candidates with medium evidence levels (L3-L4)"
 permalink: /evidence-medium/
 ---

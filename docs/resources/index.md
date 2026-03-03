@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources
-nav_order: 6
+nav_order: 9
 has_children: true
 description: "Data sources, downloads, and research resources"
 permalink: /resources/

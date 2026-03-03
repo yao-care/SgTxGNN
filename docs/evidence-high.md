@@ -1,7 +1,7 @@
 ---
 layout: default
 title: High Evidence (L1-L2)
-nav_order: 3
+nav_order: 5
 description: "Drug repurposing candidates with high evidence levels (L1-L2)"
 permalink: /evidence-high/
 ---
