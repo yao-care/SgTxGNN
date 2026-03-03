@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Low Evidence (L5)
-nav_order: 5
+nav_order: 7
 description: "Drug repurposing candidates with prediction only (L5)"
 permalink: /evidence-low/
 ---

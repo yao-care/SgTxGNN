@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Downloads
-nav_order: 8
+nav_order: 12
 description: "Download SgTxGNN drug repurposing prediction data"
 permalink: /downloads/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Sources
+title: Data Sources Reference
 parent: Help
 nav_order: 5
 description: "Data sources used in SgTxGNN"

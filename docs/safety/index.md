@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Safety Data
-nav_order: 5
+nav_order: 8
 has_children: true
 description: "Drug safety information including interactions and precautions"
 permalink: /safety/
