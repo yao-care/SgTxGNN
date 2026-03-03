@@ -1,0 +1,2523 @@
+{
+  "description": "News monitoring keywords for SgTxGNN drug repurposing",
+  "generated": "2026-03-03T14:22:13.888882",
+  "statistics": {
+    "total_drugs": 507,
+    "total_indications": 937,
+    "drug_patterns": 507,
+    "indication_patterns": 937,
+    "combination_patterns": 100
+  },
+  "news_sources": [
+    {
+      "name": "CNA Health",
+      "url": "https://www.channelnewsasia.com/singapore/health",
+      "region": "SG"
+    },
+    {
+      "name": "Straits Times Health",
+      "url": "https://www.straitstimes.com/singapore/health",
+      "region": "SG"
+    },
+    {
+      "name": "Today Health",
+      "url": "https://www.todayonline.com/singapore/health",
+      "region": "SG"
+    },
+    {
+      "name": "Medical News Today",
+      "url": "https://www.medicalnewstoday.com/",
+      "region": "global"
+    },
+    {
+      "name": "Reuters Health",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/",
+      "region": "global"
+    }
+  ],
+  "patterns": {
+    "drugs": [
+      {
+        "category": "drug",
+        "primary_term": "ABACAVIR",
+        "search_terms": [
+          "ABACAVIR"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACALABRUTINIB",
+        "search_terms": [
+          "ACALABRUTINIB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACARBOSE",
+        "search_terms": [
+          "ACARBOSE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACEBUTOLOL",
+        "search_terms": [
+          "ACEBUTOLOL"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACECLOFENAC",
+        "search_terms": [
+          "ACECLOFENAC"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACETAMINOPHEN",
+        "search_terms": [
+          "ACETAMINOPHEN",
+          "paracetamol",
+          "tylenol",
+          "panadol",
+          "calpol"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACETAZOLAMIDE",
+        "search_terms": [
+          "ACETAZOLAMIDE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACETIC ACID",
+        "search_terms": [
+          "ACETIC ACID"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACETYLCYSTEINE",
+        "search_terms": [
+          "ACETYLCYSTEINE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACETYLSALICYLIC ACID",
+        "search_terms": [
+          "ACETYLSALICYLIC ACID"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ACYCLOVIR",
+        "search_terms": [
+          "ACYCLOVIR"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ADALIMUMAB",
+        "search_terms": [
+          "ADALIMUMAB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ADAPALENE",
+        "search_terms": [
+          "ADAPALENE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ADENOSINE",
+        "search_terms": [
+          "ADENOSINE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AFLIBERCEPT",
+        "search_terms": [
+          "AFLIBERCEPT"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AGOMELATINE",
+        "search_terms": [
+          "AGOMELATINE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALBENDAZOLE",
+        "search_terms": [
+          "ALBENDAZOLE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALENDRONIC ACID",
+        "search_terms": [
+          "ALENDRONIC ACID"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALFACALCIDOL",
+        "search_terms": [
+          "ALFACALCIDOL"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALGLUCOSIDASE ALFA",
+        "search_terms": [
+          "ALGLUCOSIDASE ALFA"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALIROCUMAB",
+        "search_terms": [
+          "ALIROCUMAB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALLOPURINOL",
+        "search_terms": [
+          "ALLOPURINOL"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALPROSTADIL",
+        "search_terms": [
+          "ALPROSTADIL"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ALUMINUM HYDROXIDE",
+        "search_terms": [
+          "ALUMINUM HYDROXIDE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AMIKACIN",
+        "search_terms": [
+          "AMIKACIN"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AMLODIPINE",
+        "search_terms": [
+          "AMLODIPINE",
+          "norvasc",
+          "calcium channel blocker",
+          "CCB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AMOXICILLIN",
+        "search_terms": [
+          "AMOXICILLIN"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AMPHOTERICIN B",
+        "search_terms": [
+          "AMPHOTERICIN B"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AMPICILLIN",
+        "search_terms": [
+          "AMPICILLIN"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ANAGRELIDE",
+        "search_terms": [
+          "ANAGRELIDE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ANIDULAFUNGIN",
+        "search_terms": [
+          "ANIDULAFUNGIN"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "APALUTAMIDE",
+        "search_terms": [
+          "APALUTAMIDE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ARIPIPRAZOLE",
+        "search_terms": [
+          "ARIPIPRAZOLE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ARSENIC TRIOXIDE",
+        "search_terms": [
+          "ARSENIC TRIOXIDE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ASCORBIC ACID",
+        "search_terms": [
+          "ASCORBIC ACID"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ASFOTASE ALFA",
+        "search_terms": [
+          "ASFOTASE ALFA"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ATAZANAVIR",
+        "search_terms": [
+          "ATAZANAVIR"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ATENOLOL",
+        "search_terms": [
+          "ATENOLOL"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ATEZOLIZUMAB",
+        "search_terms": [
+          "ATEZOLIZUMAB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "ATORVASTATIN",
+        "search_terms": [
+          "ATORVASTATIN",
+          "lipitor",
+          "statin",
+          "cholesterol"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AVANAFIL",
+        "search_terms": [
+          "AVANAFIL"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AVELUMAB",
+        "search_terms": [
+          "AVELUMAB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AXITINIB",
+        "search_terms": [
+          "AXITINIB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AZACITIDINE",
+        "search_terms": [
+          "AZACITIDINE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AZELAIC ACID",
+        "search_terms": [
+          "AZELAIC ACID"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AZITHROMYCIN",
+        "search_terms": [
+          "AZITHROMYCIN"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "AZTREONAM",
+        "search_terms": [
+          "AZTREONAM"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "BECLOMETHASONE DIPROPIONATE",
+        "search_terms": [
+          "BECLOMETHASONE DIPROPIONATE"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "BELIMUMAB",
+        "search_terms": [
+          "BELIMUMAB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      },
+      {
+        "category": "drug",
+        "primary_term": "BENRALIZUMAB",
+        "search_terms": [
+          "BENRALIZUMAB"
+        ],
+        "exclude_terms": [
+          "stock",
+          "shares",
+          "market",
+          "investor"
+        ]
+      }
+    ],
+    "indications": [
+      {
+        "category": "indication",
+        "primary_term": "AH amyloidosis",
+        "search_terms": [
+          "AH amyloidosis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "AIDS",
+        "search_terms": [
+          "AIDS"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "AL amyloidosis",
+        "search_terms": [
+          "AL amyloidosis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "ALK-positive large B-cell lymphoma",
+        "search_terms": [
+          "ALK-positive large B-cell lymphoma"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "ATTRV122I amyloidosis",
+        "search_terms": [
+          "ATTRV122I amyloidosis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Actinomycetales infectious disease",
+        "search_terms": [
+          "Actinomycetales infectious disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Addison disease",
+        "search_terms": [
+          "Addison disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "B-cell neoplasm",
+        "search_terms": [
+          "B-cell neoplasm"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Bartter disease",
+        "search_terms": [
+          "Bartter disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Brill-Zinsser disease",
+        "search_terms": [
+          "Brill-Zinsser disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Burkitt lymphoma",
+        "search_terms": [
+          "Burkitt lymphoma"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "CD4+/CD56+ hematodermic neoplasm",
+        "search_terms": [
+          "CD4+/CD56+ hematodermic neoplasm"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Campylobacter fetus infectious disease",
+        "search_terms": [
+          "Campylobacter fetus infectious disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Castleman disease",
+        "search_terms": [
+          "Castleman disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Clostridium difficile colitis",
+        "search_terms": [
+          "Clostridium difficile colitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Crohn disease",
+        "search_terms": [
+          "Crohn disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Crohn's colitis",
+        "search_terms": [
+          "Crohn's colitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Cryptococcal meningitis",
+        "search_terms": [
+          "Cryptococcal meningitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Cushing syndrome",
+        "search_terms": [
+          "Cushing syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Diamond-Blackfan anemia",
+        "search_terms": [
+          "Diamond-Blackfan anemia"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "search_terms": [
+          "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Escherichia coli meningitis",
+        "search_terms": [
+          "Escherichia coli meningitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Ewing sarcoma",
+        "search_terms": [
+          "Ewing sarcoma"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Gaucher disease",
+        "search_terms": [
+          "Gaucher disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Graves disease",
+        "search_terms": [
+          "Graves disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "HER2 positive breast carcinoma",
+        "search_terms": [
+          "HER2 positive breast carcinoma"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "HIV infectious disease",
+        "search_terms": [
+          "HIV infectious disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Hodgkin's paragranuloma",
+        "search_terms": [
+          "Hodgkin's paragranuloma"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Hodgkins lymphoma",
+        "search_terms": [
+          "Hodgkins lymphoma"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Hurler syndrome",
+        "search_terms": [
+          "Hurler syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Hurler-Scheie syndrome",
+        "search_terms": [
+          "Hurler-Scheie syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "IDDM 1",
+        "search_terms": [
+          "IDDM 1"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "IgG4-related pachymeningitis",
+        "search_terms": [
+          "IgG4-related pachymeningitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "IgG4-related sclerosing cholangitis",
+        "search_terms": [
+          "IgG4-related sclerosing cholangitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Japanese spotted fever",
+        "search_terms": [
+          "Japanese spotted fever"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Kallmann syndrome",
+        "search_terms": [
+          "Kallmann syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Kaposi's sarcoma (disease)",
+        "search_terms": [
+          "Kaposi's sarcoma (disease)"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Kimura disease",
+        "search_terms": [
+          "Kimura disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Klebsiella pneumonia",
+        "search_terms": [
+          "Klebsiella pneumonia"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Klinefelter syndrome",
+        "search_terms": [
+          "Klinefelter syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Langerhans cell histiocytosis",
+        "search_terms": [
+          "Langerhans cell histiocytosis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Lennox-Gastaut syndrome",
+        "search_terms": [
+          "Lennox-Gastaut syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Listeria meningitis",
+        "search_terms": [
+          "Listeria meningitis"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Lyme disease",
+        "search_terms": [
+          "Lyme disease"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Marfan syndrome",
+        "search_terms": [
+          "Marfan syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Mycoplasma pneumoniae pneumonia",
+        "search_terms": [
+          "Mycoplasma pneumoniae pneumonia"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Noonan syndrome",
+        "search_terms": [
+          "Noonan syndrome"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Norwegian scabies",
+        "search_terms": [
+          "Norwegian scabies"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Parkinson disease",
+        "search_terms": [
+          "Parkinson disease",
+          "parkinsons",
+          "PD",
+          "parkinsonism",
+          "movement disorder",
+          "tremor",
+          "dopamine"
+        ],
+        "exclude_terms": []
+      },
+      {
+        "category": "indication",
+        "primary_term": "Pasteurella multocida infectious disease",
+        "search_terms": [
+          "Pasteurella multocida infectious disease"
+        ],
+        "exclude_terms": []
+      }
+    ],
+    "combinations": [
+      {
+        "category": "drug_indication",
+        "drug": "CEFAZOLIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CEFAZOLIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ELTROMBOPAG",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ELTROMBOPAG"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CYTARABINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CYTARABINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CLOBAZAM",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CLOBAZAM"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "LULICONAZOLE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "LULICONAZOLE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MOMETASONE FUROATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MOMETASONE FUROATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "BILASTINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "BILASTINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ACETAZOLAMIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ACETAZOLAMIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "BIMATOPROST",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "BIMATOPROST"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TOPIRAMATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TOPIRAMATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "NORETHISTERONE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "NORETHISTERONE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ACEBUTOLOL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ACEBUTOLOL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "VANCOMYCIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "VANCOMYCIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "FLUTICASONE PROPIONATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "FLUTICASONE PROPIONATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DESVENLAFAXINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DESVENLAFAXINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DANAZOL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DANAZOL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CARVEDILOL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CARVEDILOL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ALLOPURINOL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ALLOPURINOL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DRONEDARONE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DRONEDARONE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ERYTHROMYCIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ERYTHROMYCIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "NEBIVOLOL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "NEBIVOLOL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CLOBETASOL PROPIONATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CLOBETASOL PROPIONATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "SAFINAMIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "SAFINAMIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "OBINUTUZUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "OBINUTUZUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CEFADROXIL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CEFADROXIL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MINOXIDIL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MINOXIDIL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MEDROXYPROGESTERONE ACETATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MEDROXYPROGESTERONE ACETATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "PALIVIZUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "PALIVIZUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "SUCRALFATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "SUCRALFATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ESCITALOPRAM",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ESCITALOPRAM"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "AFLIBERCEPT",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "AFLIBERCEPT"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TRABECTEDIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TRABECTEDIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "IDURSULFASE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "IDURSULFASE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CALCIUM GLUCONATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CALCIUM GLUCONATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TRASTUZUMAB EMTANSINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TRASTUZUMAB EMTANSINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CABOZANTINIB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CABOZANTINIB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "RILPIVIRINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "RILPIVIRINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ORLISTAT",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ORLISTAT"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "SELENIUM SULFIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "SELENIUM SULFIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MONTELUKAST",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MONTELUKAST"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CINNARIZINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CINNARIZINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CLADRIBINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CLADRIBINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "PROPYLTHIOURACIL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "PROPYLTHIOURACIL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CARIPRAZINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CARIPRAZINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MICAFUNGIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MICAFUNGIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TAMOXIFEN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TAMOXIFEN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DUTASTERIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DUTASTERIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CEFUROXIME",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CEFUROXIME"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "RITUXIMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "RITUXIMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DICLOFENAC",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DICLOFENAC"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "INSULIN DEGLUDEC",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "INSULIN DEGLUDEC"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ITRACONAZOLE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ITRACONAZOLE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "OFATUMUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "OFATUMUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "NUSINERSEN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "NUSINERSEN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "BELIMUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "BELIMUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ALGLUCOSIDASE ALFA",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ALGLUCOSIDASE ALFA"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "GOLIMUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "GOLIMUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "LISINOPRIL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "LISINOPRIL",
+            "zestril",
+            "prinivil"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "NARATRIPTAN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "NARATRIPTAN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TENOFOVIR ALAFENAMIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TENOFOVIR ALAFENAMIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CHOLECALCIFEROL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CHOLECALCIFEROL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "STREPTOMYCIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "STREPTOMYCIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "PRAZOSIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "PRAZOSIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ATENOLOL",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ATENOLOL"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ANAGRELIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ANAGRELIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TIOTROPIUM",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TIOTROPIUM"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MESALAZINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MESALAZINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "BUROSUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "BUROSUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "MELPHALAN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "MELPHALAN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "FEDRATINIB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "FEDRATINIB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "LIDOCAINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "LIDOCAINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CROTAMITON",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CROTAMITON"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ENTACAPONE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ENTACAPONE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TESTOSTERONE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TESTOSTERONE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "RUXOLITINIB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "RUXOLITINIB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ERENUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ERENUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CEFOTAXIME",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CEFOTAXIME"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "POMALIDOMIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "POMALIDOMIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TALIGLUCERASE ALFA",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TALIGLUCERASE ALFA"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "METRONIDAZOLE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "METRONIDAZOLE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "GLIPIZIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "GLIPIZIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DACTINOMYCIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DACTINOMYCIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "INSULIN GLULISINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "INSULIN GLULISINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "KETOCONAZOLE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "KETOCONAZOLE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "OLOPATADINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "OLOPATADINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "ADALIMUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "ADALIMUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DIPYRIDAMOLE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DIPYRIDAMOLE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "DURVALUMAB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "DURVALUMAB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TEMOZOLOMIDE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TEMOZOLOMIDE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "LATANOPROSTENE BUNOD",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "LATANOPROSTENE BUNOD"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TRIFAROTENE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TRIFAROTENE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "SELUMETINIB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "SELUMETINIB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "FLUTICASONE FUROATE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "FLUTICASONE FUROATE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "SORAFENIB",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "SORAFENIB"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CAFFEINE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CAFFEINE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "CEFTRIAXONE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "CEFTRIAXONE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "PREDNISONE",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "PREDNISONE"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "TAFLUPROST",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "TAFLUPROST"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "KETOPROFEN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "KETOPROFEN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      },
+      {
+        "category": "drug_indication",
+        "drug": "PREGABALIN",
+        "indication": "stroke disorder",
+        "search_terms": {
+          "drug_terms": [
+            "PREGABALIN"
+          ],
+          "indication_terms": [
+            "stroke disorder"
+          ]
+        },
+        "query_template": "(\"{drug_term}\") AND (\"{indication_term}\")"
+      }
+    ]
+  },
+  "global_exclude_terms": [
+    "stock price",
+    "shares",
+    "investor",
+    "quarterly earnings",
+    "IPO",
+    "merger",
+    "acquisition"
+  ]
+}
