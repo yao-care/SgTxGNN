@@ -1,71 +1,130 @@
 ---
 layout: default
-title: SMART App Guide
+title: User Guide
 parent: SMART on FHIR
 nav_order: 1
-description: "How to use the SgTxGNN SMART app"
+description: "User guide for SgTxGNN SMART on FHIR application"
 permalink: /smart/guide/
 ---
 
 # SMART App User Guide
 
-## For Clinicians
-
-### Launching the App
-
-1. Open a patient's chart in your EHR
-2. Navigate to the "Apps" or "SMART Apps" section
-3. Select "SgTxGNN Drug Repurposing"
-4. The app will load with the patient's medications
-
-### Understanding the Display
-
-The app shows:
-
-- **Patient medications** - Current prescriptions from the EHR
-- **Repurposing insights** - AI predictions for potential new uses
-- **Confidence indicators** - KG+DL means higher confidence
-
-### Interpreting Results
-
-| Badge | Meaning |
-|-------|---------|
-| **KG+DL** | Validated by both knowledge graph and deep learning |
-| **High Score** | Deep learning confidence > 99% |
-| **L1-L2** | Strong clinical evidence available |
-
-### Important Notes
-
-- Predictions are for **research purposes only**
-- Always verify with current literature
-- Discuss with colleagues before clinical application
-- Report any issues via the feedback button
+A step-by-step guide for clinicians using the SgTxGNN SMART application.
 
 ---
 
-## For Developers
+## Getting Started
 
-### Testing the App
+### Prerequisites
 
-Use the SMART App Launcher for testing:
+- Access to a SMART on FHIR enabled EHR system
+- SgTxGNN app registered with your institution
+- Valid user credentials for your EHR
 
-1. Go to [launch.smarthealthit.org](https://launch.smarthealthit.org/)
-2. Enter Launch URL: `https://sgtxgnn.yao.care/smart/launch.html`
-3. Select a test patient
-4. Click "Launch"
+### Launching the App
 
-### Debugging
+1. **From your EHR**: Look for "SgTxGNN" or "Drug Repurposing" in your app launcher
+2. **Select a patient**: The app requires patient context
+3. **Authorise**: Grant the app permission to read medication data
+4. **View results**: See repurposing predictions for patient medications
 
-Open browser developer tools to see:
-- FHIR requests and responses
-- Authentication flow
-- Any error messages
+---
 
-### Customization
+## Understanding the Interface
 
-The app can be customized for your institution:
-- Branding and colors
-- Additional data sources
-- Custom filtering rules
+### Patient Information Panel
 
-Contact us for customization options.
+Displays basic patient demographics loaded from the EHR:
+- Patient name
+- Date of birth
+- Gender
+- Patient ID
+
+### Current Medications
+
+Lists all active medications for the patient:
+- Medication name
+- Status (active, completed, etc.)
+- **Has Insights** badge indicates repurposing predictions available
+
+### Repurposing Insights
+
+For medications with predictions:
+- **Indication**: The predicted new use
+- **Source**: Prediction method (KG, DL, or KG+DL)
+- **Evidence Level**: L1-L5 classification
+
+---
+
+## Evidence Levels Explained
+
+| Level | Meaning | Clinical Relevance |
+|-------|---------|-------------------|
+| **L1** | Multiple Phase 3 RCTs | Strong evidence, may support clinical use |
+| **L2** | Single RCT or Phase 2 | Moderate evidence, consider with caution |
+| **L3** | Observational studies | Emerging evidence, needs validation |
+| **L4** | Preclinical/mechanistic | Early research stage |
+| **L5** | Model prediction only | Research hypothesis |
+
+### Special Indicators
+
+- **KG+DL**: Prediction validated by both Knowledge Graph AND Deep Learning methods - higher confidence
+- **High Score (>0.99)**: Very strong model confidence
+
+---
+
+## Best Practices
+
+### Do
+
+- Use predictions as research starting points
+- Verify findings with current literature
+- Discuss with colleagues and pharmacists
+- Consider patient-specific factors
+
+### Don't
+
+- Make treatment decisions based solely on predictions
+- Prescribe off-label without proper evaluation
+- Ignore standard clinical guidelines
+- Skip regulatory requirements
+
+---
+
+## Troubleshooting
+
+### App won't launch
+
+1. Check your network connection
+2. Ensure you have a patient selected
+3. Verify app is registered with your EHR
+4. Contact your IT support
+
+### No medications shown
+
+1. Patient may have no active medications
+2. Check patient has medication records in EHR
+3. Verify app has permission to read MedicationRequest
+
+### No predictions available
+
+Not all medications have repurposing predictions. The app only shows results for:
+- HSA-approved medications
+- Drugs mapped to DrugBank identifiers
+- Drugs included in TxGNN knowledge graph
+
+---
+
+## Privacy & Security
+
+- **No data storage**: Patient data is never stored by SgTxGNN
+- **In-browser processing**: All analysis happens locally
+- **Encrypted connections**: HTTPS only
+- **OAuth 2.0**: Industry-standard authentication
+
+---
+
+<div class="disclaimer">
+<strong>Disclaimer</strong><br>
+SgTxGNN predictions are for research purposes only and do not constitute medical advice. Always follow clinical guidelines and consult with healthcare professionals before making treatment decisions.
+</div>

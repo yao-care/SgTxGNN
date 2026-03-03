@@ -2,7 +2,7 @@
 layout: default
 title: Methodology
 parent: Help
-nav_order: 4
+nav_order: 1
 description: "How SgTxGNN predictions are generated and validated"
 permalink: /methodology/
 ---
@@ -93,7 +93,7 @@ All predictions meet these minimum criteria:
 ### Singapore HSA Data
 
 1. Drug registration data from [data.gov.sg](https://data.gov.sg/)
-2. 5,485 registered products processed
+2. 11,466 registered products processed
 3. Active ingredients mapped to DrugBank IDs
 4. 745 unique drugs with successful mapping
 
