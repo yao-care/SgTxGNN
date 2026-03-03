@@ -1,9 +1,9 @@
 ---
 layout: default
 title: SMART on FHIR
-nav_order: 9
+nav_order: 2
 has_children: true
-description: "SgTxGNN SMART on FHIR integration for EHR systems"
+description: "SMART on FHIR integration for SgTxGNN drug repurposing predictions"
 permalink: /smart/
 ---
 
@@ -15,97 +15,104 @@ Integrate drug repurposing insights into your EHR
 
 ---
 
-## Overview
+## What is SMART on FHIR?
 
-SgTxGNN provides SMART on FHIR applications that can be integrated into Electronic Health Record (EHR) systems. When a clinician views a patient's medications, the app displays potential repurposing insights based on TxGNN predictions.
+**SMART on FHIR** (Substitutable Medical Applications, Reusable Technologies on Fast Healthcare Interoperability Resources) is a healthcare standard that enables third-party applications to integrate with EHR systems securely.
 
----
-
-## Available Apps
-
-### Patient Medication Insights
-
-Shows drug repurposing predictions for a patient's current medications.
-
-- **Launch URL**: `https://sgtxgnn.yao.care/smart/launch.html`
-- **App URL**: `https://sgtxgnn.yao.care/smart/app.html`
-- **Scopes Required**: `launch patient/MedicationRequest.read patient/Patient.read`
+SgTxGNN provides a SMART app that allows clinicians to:
+- View drug repurposing predictions for patient medications
+- Access evidence levels and supporting literature
+- Review drug interactions and safety information
 
 ---
 
-## Integration Guide
-
-### For EHR Administrators
-
-1. **Register the App**
-   - Client ID: `sgtxgnn-smart-app`
-   - Redirect URI: `https://sgtxgnn.yao.care/smart/app.html`
-   - Launch URI: `https://sgtxgnn.yao.care/smart/launch.html`
-
-2. **Configure Scopes**
-   ```
-   launch
-   patient/MedicationRequest.read
-   patient/MedicationStatement.read
-   patient/Patient.read
-   patient/Condition.read
-   ```
-
-3. **Test with SMART Launcher**
-   - Use [SMART App Launcher](https://launch.smarthealthit.org/) for testing
-   - Select "Launch as Patient Standalone" or "Launch from EHR"
-
----
-
-## FHIR API
-
-### Capability Statement
-
-```
-GET https://sgtxgnn.yao.care/fhir/metadata
-```
-
-### Available Resources
+## Quick Links
 
 | Resource | Description |
 |----------|-------------|
-| MedicationKnowledge | Drug information with repurposing metadata |
-| ClinicalUseDefinition | Drug-indication predictions |
+| [User Guide]({{ '/smart/guide/' | relative_url }}) | Step-by-step instructions for clinicians |
+| [Technical Documentation]({{ '/smart/technical/' | relative_url }}) | API specifications and implementation details |
+| [Integration Resources]({{ '/smart/integration/' | relative_url }}) | Resources for EHR administrators |
+| [SMART App Gallery]({{ '/smart/gallery/' | relative_url }}) | Reference apps and examples |
+| [App Assessment]({{ '/smart/assessment/' | relative_url }}) | Integration evaluation criteria |
+| [FHIR API Specification]({{ '/smart/fhir-api/' | relative_url }}) | FHIR R4 endpoints and resources |
 
-### Example Queries
+---
 
-```bash
-# Get drug information
-curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/db00945
+## Launch the App
 
-# Get predictions for a drug
-curl https://sgtxgnn.yao.care/fhir/ClinicalUseDefinition?subject=MedicationKnowledge/db00945
+### For Testing
+
+Use the [SMART App Launcher](https://launch.smarthealthit.org/) with:
+
+```
+Launch URL: https://sgtxgnn.yao.care/smart/launch.html
+FHIR Version: R4
 ```
 
----
+### For Production
 
-## Security
+Register with your EHR administrator using:
 
-- All connections use HTTPS
-- OAuth 2.0 with PKCE for authentication
-- No patient data is stored by SgTxGNN
-- Read-only access to patient medications
-
----
-
-## Screenshots
-
-*Coming soon*
+| Parameter | Value |
+|-----------|-------|
+| App Name | SgTxGNN Drug Repurposing |
+| Launch URL | `https://sgtxgnn.yao.care/smart/launch.html` |
+| Redirect URL | `https://sgtxgnn.yao.care/smart/app.html` |
+| FHIR Version | R4 |
+| Scopes | `launch patient/MedicationRequest.read patient/Patient.read patient/Condition.read` |
 
 ---
 
-## Support
+## Key Features
 
-For integration support, please contact us through [GitHub Issues](https://github.com/yao-care/SgTxGNN/issues).
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
+  <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #2E7D32;">
+    <strong>Patient Context</strong><br>
+    <span style="color: #666;">Automatically loads patient medications from EHR</span>
+  </div>
+  <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #1976D2;">
+    <strong>Evidence-Based</strong><br>
+    <span style="color: #666;">Shows L1-L5 evidence levels for each prediction</span>
+  </div>
+  <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
+    <strong>Dual Validation</strong><br>
+    <span style="color: #666;">KG+DL validated predictions highlighted</span>
+  </div>
+  <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
+    <strong>Privacy First</strong><br>
+    <span style="color: #666;">All processing in-browser, no data stored</span>
+  </div>
+</div>
+
+---
+
+## FHIR Resources
+
+SgTxGNN provides FHIR R4 resources:
+
+| Resource | Endpoint | Description |
+|----------|----------|-------------|
+| CapabilityStatement | `/fhir/metadata` | Server capabilities |
+| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}` | Drug information |
+| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}` | Repurposing predictions |
+
+---
+
+## Technical Notes
+
+Explore our technical documentation:
+
+| Topic | Description |
+|-------|-------------|
+| [ClinicalTrials.gov API v2]({{ '/smart/clinicaltrials-api/' | relative_url }}) | Working with clinical trials data |
+| [CQL Syntax Notes]({{ '/smart/cql-notes/' | relative_url }}) | Clinical Quality Language reference |
+| [HL7 PDDI-CDS IG]({{ '/smart/pddi-cds/' | relative_url }}) | Drug-Drug Interaction CDS implementation |
+| [CDS Hooks Architecture]({{ '/smart/cds-hooks/' | relative_url }}) | CDS Hooks service design |
 
 ---
 
 <div class="disclaimer">
-<strong>Disclaimer</strong><br>
-SMART apps provide research information only and do not constitute clinical decision support. All treatment decisions should be made by qualified healthcare professionals.
+<strong>Research Use Only</strong><br>
+This SMART app provides research information only. Drug repurposing predictions have not been clinically validated and should NOT be used for treatment decisions without consultation with qualified healthcare professionals.
 </div>
