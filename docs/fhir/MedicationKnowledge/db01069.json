@@ -1,0 +1,53 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db01069",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB01069",
+        "display": "Promethazine"
+      }
+    ],
+    "text": "Promethazine"
+  },
+  "synonym": [
+    "PROZINE-10 SYRUP 10 mg/5 ml"
+  ],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Singapore Health Sciences Authority (HSA)"
+      },
+      "identifier": [
+        {
+          "system": "https://sgtxgnn.yao.care/hsa-license",
+          "value": "SIN02482P"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

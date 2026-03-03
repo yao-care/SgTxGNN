@@ -1,0 +1,53 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00290",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB00290",
+        "display": "Bleomycin"
+      }
+    ],
+    "text": "Bleomycin"
+  },
+  "synonym": [
+    "DBL BLEOMYCIN SULFATE FOR INJECTION 15000 iu/vial"
+  ],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Singapore Health Sciences Authority (HSA)"
+      },
+      "identifier": [
+        {
+          "system": "https://sgtxgnn.yao.care/hsa-license",
+          "value": "SIN08426P"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

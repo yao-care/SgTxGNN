@@ -1,0 +1,53 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00059",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB00059",
+        "display": "PEGASPARGASE"
+      }
+    ],
+    "text": "PEGASPARGASE"
+  },
+  "synonym": [
+    "ONCASPAR POWDER FOR SOLUTION FOR INJECTION/INFUSION 750 U/ML"
+  ],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Singapore Health Sciences Authority (HSA)"
+      },
+      "identifier": [
+        {
+          "system": "https://sgtxgnn.yao.care/hsa-license",
+          "value": "SIN16408P"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

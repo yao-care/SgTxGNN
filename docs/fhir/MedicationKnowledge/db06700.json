@@ -1,0 +1,53 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db06700",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB06700",
+        "display": "DESVENLAFAXINE"
+      }
+    ],
+    "text": "DESVENLAFAXINE"
+  },
+  "synonym": [
+    "Pristiq Extended-Release Tablet 50mg"
+  ],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Singapore Health Sciences Authority (HSA)"
+      },
+      "identifier": [
+        {
+          "system": "https://sgtxgnn.yao.care/hsa-license",
+          "value": "SIN13859P"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

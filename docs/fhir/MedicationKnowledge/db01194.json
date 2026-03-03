@@ -1,0 +1,53 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db01194",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB01194",
+        "display": "BRINZOLAMIDE"
+      }
+    ],
+    "text": "BRINZOLAMIDE"
+  },
+  "synonym": [
+    "AZOPT OPHTHALMIC SUSPENSION 1%"
+  ],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Singapore Health Sciences Authority (HSA)"
+      },
+      "identifier": [
+        {
+          "system": "https://sgtxgnn.yao.care/hsa-license",
+          "value": "SIN11029P"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

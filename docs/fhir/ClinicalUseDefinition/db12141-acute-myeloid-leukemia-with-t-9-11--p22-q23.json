@@ -1,0 +1,46 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db12141-acute-myeloid-leukemia-with-t-9-11--p22-q23",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ]
+  },
+  "type": "indication",
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "draft",
+        "display": "Draft"
+      }
+    ]
+  },
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db12141"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "acute myeloid leukemia with t(9;11)(p22;q23)"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "KG"
+    }
+  ],
+  "warning": {
+    "description": {
+      "text": "This is a computational prediction for research purposes only. Not validated for clinical use. Always consult healthcare professionals."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+# Singapore HSA (Health Sciences Authority) 藥品資料欄位映射
+
+# 基本設定
+country_code: "SG"
+language: "en"
+regulatory_agency: "HSA"
+
+# 資料來源
+data_source:
+  name: "data.gov.sg"
+  url: "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view"
+  api_endpoint: "https://data.gov.sg/api/action/datastore_search"
+  resource_id: "d_767279312753558cbf19d48344577084"
+
+# 欄位映射
+# HSA 資料欄位名稱 → 標準欄位
+field_mapping:
+  license_id: "licence_no"
+  brand_name_local: "product_name"
+  brand_name_en: "product_name"            # 新加坡使用英文
+  ingredients: "active_ingredients"
+  indication: ""                           # HSA 資料無適應症欄位
+  dosage_form: "dosage_form"
+  manufacturer: "manufacturer"
+  approval_date: "approval_d"
+  status: ""                               # HSA 資料只包含已註冊產品
+  license_holder: "license_holder"
+  forensic_classification: "forensic_classification"
+  atc_code: "atc_code"
+  route_of_administration: "route_of_administration"
+  strength: "strength"
+  country_of_manufacturer: "country_of_manufacturer"
+
+# 註銷/無效狀態值（HSA 資料只包含有效產品，無需過濾）
+withdrawn_statuses: []
+
+# 成分分隔符
+ingredient_separator: ";"
+
+# 日期格式
+date_format: "%d %b %Y"  # 例如 "01 Jan 2024"
+
+# 編碼
+encoding: "utf-8"
+
+# ATC 分類對照（用於推斷適應症類別）
+# https://www.whocc.no/atc_ddd_index/
+atc_categories:
+  A: "Alimentary tract and metabolism"
+  B: "Blood and blood forming organs"
+  C: "Cardiovascular system"
+  D: "Dermatologicals"
+  G: "Genito-urinary system and sex hormones"
+  H: "Systemic hormonal preparations"
+  J: "Antiinfectives for systemic use"
+  L: "Antineoplastic and immunomodulating agents"
+  M: "Musculo-skeletal system"
+  N: "Nervous system"
+  P: "Antiparasitic products"
+  R: "Respiratory system"
+  S: "Sensory organs"
+  V: "Various"

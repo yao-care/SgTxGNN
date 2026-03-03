@@ -1,0 +1,50 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00959-persistent-polyclonal-b-cell-lymphocytosis",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ]
+  },
+  "type": "indication",
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "draft",
+        "display": "Draft"
+      }
+    ]
+  },
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00959"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "persistent polyclonal B-cell lymphocytosis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "DL"
+    },
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.990876
+    }
+  ],
+  "warning": {
+    "description": {
+      "text": "This is a computational prediction for research purposes only. Not validated for clinical use. Always consult healthcare professionals."
+    }
+  }
+}
