@@ -220,6 +220,12 @@ def main():
     print(f"   Found {len(drugs)} unique drugs")
     print(f"   Found {len(indications)} unique indications")
 
+    # Add indications from synonyms.json (common health terms)
+    print("   Adding common health terms from synonyms...")
+    for ind_name in synonyms.get("indication_synonyms", {}).keys():
+        indications.add(ind_name)
+    print(f"   Total indications after adding synonyms: {len(indications)}")
+
     # Generate patterns
     print("3. Generating keyword patterns...")
 
@@ -271,8 +277,8 @@ def main():
             },
         ],
         "patterns": {
-            "drugs": drug_patterns[:50],  # Limit to top 50 for manageability
-            "indications": indication_patterns[:50],
+            "drugs": drug_patterns[:100],  # Limit for manageability
+            "indications": indication_patterns,  # Include all for news matching
             "combinations": combination_patterns,
         },
         "global_exclude_terms": [

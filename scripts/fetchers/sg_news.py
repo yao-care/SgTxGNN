@@ -115,41 +115,30 @@ class SGNewsFetcher:
             List of NewsArticle objects
         """
         articles = []
-        url = "https://www.channelnewsasia.com/singapore/health"
+        url = "https://www.channelnewsasia.com/topic/health"
 
         try:
             response = self.client.get(url)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, "html.parser")
 
-            # Find article cards
-            for card in soup.select("article, .card, .list-object")[:limit]:
-                title_elem = card.select_one("h3, h2, .title, .headline")
-                link_elem = card.select_one("a[href]")
+            # CNA uses data attributes for article info
+            for card in soup.select(".quick-link--list-object")[:limit]:
+                title = card.get("data-heading", "")
+                href = card.get("data-link_absolute", "") or card.get("data-link", "")
 
-                if not title_elem or not link_elem:
+                if not title or not href:
                     continue
-
-                title = title_elem.get_text(strip=True)
-                href = link_elem.get("href", "")
 
                 if not href.startswith("http"):
                     href = urljoin("https://www.channelnewsasia.com", href)
 
-                # Skip non-health articles
-                if "/health" not in href and "/singapore" not in href:
-                    continue
-
-                summary_elem = card.select_one(".summary, .description, p")
-                summary = summary_elem.get_text(strip=True) if summary_elem else None
-
-                keywords = self._extract_keywords_from_text(f"{title} {summary or ''}")
+                keywords = self._extract_keywords_from_text(title)
 
                 article = NewsArticle(
                     title=title,
                     url=href,
                     source="CNA",
-                    summary=summary,
                     keywords=keywords,
                 )
                 articles.append(article)
@@ -176,30 +165,25 @@ class SGNewsFetcher:
             response.raise_for_status()
             soup = BeautifulSoup(response.text, "html.parser")
 
-            # Find article elements
-            for card in soup.select("article, .card, .story-card, .views-row")[:limit]:
-                title_elem = card.select_one("h3, h2, h5, .card-title")
-                link_elem = card.select_one("a[href]")
+            # ST uses .card as <a> tag with nested h4 for title
+            for card in soup.select("a.card[href]")[:limit]:
+                href = card.get("href", "")
+                title_elem = card.select_one("h4, h3, h5, [data-testid='heading-test-id']")
 
-                if not title_elem or not link_elem:
+                if not title_elem:
                     continue
 
                 title = title_elem.get_text(strip=True)
-                href = link_elem.get("href", "")
 
                 if not href.startswith("http"):
                     href = urljoin("https://www.straitstimes.com", href)
 
-                summary_elem = card.select_one(".card-body p, .summary")
-                summary = summary_elem.get_text(strip=True) if summary_elem else None
-
-                keywords = self._extract_keywords_from_text(f"{title} {summary or ''}")
+                keywords = self._extract_keywords_from_text(title)
 
                 article = NewsArticle(
                     title=title,
                     url=href,
                     source="Straits Times",
-                    summary=summary,
                     keywords=keywords,
                 )
                 articles.append(article)
