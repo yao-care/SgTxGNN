@@ -281,8 +281,8 @@ def get_all_synonyms(ingredient_str: str) -> List[Tuple[str, List[str]]]:
     if not ingredient_str:
         return []
 
-    # 統一分隔符號
-    ingredient_str = ingredient_str.replace(";;", ";").replace("；", ";")
+    # 統一分隔符號（與 extract_ingredients 一致）
+    ingredient_str = ingredient_str.replace(";;", ";").replace("；", ";").replace("&&", ";")
     parts = ingredient_str.split(";")
 
     results = []
