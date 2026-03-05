@@ -24,18 +24,18 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "juvenile arthritis due to defect in LACC1"
+        "text": "juvenile arthritis due to defect in lacc1"
       }
     }
   },
   "extension": [
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L5"
+      "valueCode": "L4"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "DL"
+      "valueString": "KG+DL"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",

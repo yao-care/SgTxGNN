@@ -24,18 +24,18 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "classic Hodgkin lymphoma"
+        "text": "classic hodgkin lymphoma"
       }
     }
   },
   "extension": [
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L5"
+      "valueCode": "L4"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "DL"
+      "valueString": "KG+DL"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",

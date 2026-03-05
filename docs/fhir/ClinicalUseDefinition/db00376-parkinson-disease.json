@@ -24,7 +24,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "Parkinson disease"
+        "text": "parkinson disease"
       }
     }
   },
@@ -35,11 +35,11 @@
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "DL"
+      "valueString": "KG"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.994536
+      "valueDecimal": 1.0
     }
   ],
   "warning": {
