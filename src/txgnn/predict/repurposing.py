@@ -44,27 +44,44 @@ def load_drug_disease_relations(filepath: Optional[Path] = None) -> pd.DataFrame
 
 
 def build_drug_indication_map(relations_df: pd.DataFrame) -> Dict[str, Set[str]]:
-    """建立藥物 -> 適應症集合的映射
+    """建立藥物 -> 已知適應症集合的映射（用於過濾）
 
     Args:
         relations_df: 藥物-疾病關係 DataFrame
 
     Returns:
-        {drug_name: {disease1, disease2, ...}}
+        {drug_name: {disease1, disease2, ...}} - 已批准/已知的適應症
     """
-    # 只取 indication 和 off-label use
-    indications = relations_df[relations_df["relation"].isin(["indication", "off-label use"])]
+    # 只取 indication（已批准適應症）- 這些需要被排除
+    indications = relations_df[relations_df["relation"] == "indication"]
 
     drug_map = {}
     for _, row in indications.iterrows():
         drug = row["x_name"].upper()
-        disease = row["y_name"]
+        disease = row["y_name"].lower()  # 統一小寫以便比較
 
         if drug not in drug_map:
             drug_map[drug] = set()
         drug_map[drug].add(disease)
 
     return drug_map
+
+
+def build_all_diseases_set(relations_df: pd.DataFrame) -> Set[str]:
+    """取得所有疾病名稱集合
+
+    Args:
+        relations_df: 藥物-疾病關係 DataFrame
+
+    Returns:
+        所有疾病名稱的集合
+    """
+    diseases = set()
+    for _, row in relations_df.iterrows():
+        disease = row["y_name"]
+        if pd.notna(disease):
+            diseases.add(disease)
+    return diseases
 
 
 def find_repurposing_candidates(
