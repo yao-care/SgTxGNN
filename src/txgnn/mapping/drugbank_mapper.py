@@ -175,6 +175,31 @@ def build_name_index(drugbank_df: pd.DataFrame) -> Dict[str, str]:
         "IRBESARTAN": "IRBESARTAN",
         "TELMISARTAN": "TELMISARTAN",
         "VALSARTAN": "VALSARTAN",
+        # 額外常見成分
+        "SIMETHICONE": "DIMETHICONE",
+        "SIMETICONE": "DIMETHICONE",
+        "GLUCOSE": "D-GLUCOSE",
+        "GLUCOSE MONOHYDRATE": "D-GLUCOSE",
+        "DEXTROSE MONOHYDRATE": "D-GLUCOSE",
+        "DEXTROSE HYDROUS": "D-GLUCOSE",
+        "DEXTROSE": "D-GLUCOSE",
+        "HYDROUS DEXTROSE": "D-GLUCOSE",
+        # 胺基酸 (TPN 常見)
+        "GLYCINE": "GLYCINE",
+        "L-ALANINE": "ALANINE",
+        "L-ARGININE": "ARGININE",
+        "L-HISTIDINE": "HISTIDINE",
+        "L-ISOLEUCINE": "ISOLEUCINE",
+        "L-LEUCINE": "LEUCINE",
+        "L-LYSINE": "LYSINE",
+        "L-METHIONINE": "METHIONINE",
+        "L-PHENYLALANINE": "PHENYLALANINE",
+        "L-PROLINE": "PROLINE",
+        "L-SERINE": "SERINE",
+        "L-THREONINE": "THREONINE",
+        "L-TRYPTOPHAN": "TRYPTOPHAN",
+        "L-TYROSINE": "TYROSINE",
+        "L-VALINE": "VALINE",
     }
 
     for alias, canonical in synonym_map.items():
