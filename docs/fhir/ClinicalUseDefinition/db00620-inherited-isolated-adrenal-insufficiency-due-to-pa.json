@@ -24,7 +24,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency"
+        "text": "inherited isolated adrenal insufficiency due to partial cyp11a1 deficiency"
       }
     }
   },
@@ -35,11 +35,11 @@
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "DL"
+      "valueString": "KG"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.992246
+      "valueDecimal": 0.4
     }
   ],
   "warning": {

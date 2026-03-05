@@ -24,7 +24,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "bone Paget disease"
+        "text": "bone paget disease"
       }
     }
   },
@@ -35,11 +35,11 @@
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "DL"
+      "valueString": "KG"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.999663
+      "valueDecimal": 0.4
     }
   ],
   "warning": {

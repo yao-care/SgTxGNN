@@ -24,22 +24,22 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "Stevens-Johnson syndrome"
+        "text": "stevens-johnson syndrome"
       }
     }
   },
   "extension": [
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L4"
+      "valueCode": "L5"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "KG+DL"
+      "valueString": "KG"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.987416
+      "valueDecimal": 0.764706
     }
   ],
   "warning": {

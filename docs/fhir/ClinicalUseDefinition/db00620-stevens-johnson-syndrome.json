@@ -24,7 +24,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "Stevens-Johnson syndrome"
+        "text": "stevens-johnson syndrome"
       }
     }
   },
@@ -35,11 +35,11 @@
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "DL"
+      "valueString": "KG"
     },
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.994856
+      "valueDecimal": 0.4
     }
   ],
   "warning": {

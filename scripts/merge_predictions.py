@@ -88,7 +88,7 @@ def main():
     print(f"  已知適應症數: {total_indications}")
     print()
 
-    # 2. 載入 KG 預測
+    # 2. 載入 KG 預測（靶點相似性方法）
     print("步驟 2: 載入 KG 預測...")
     kg_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
     kg_results = []
@@ -97,11 +97,13 @@ def main():
         kg_df = pd.read_csv(kg_path)
         print(f"  原始 KG 預測數: {len(kg_df)}")
 
-        # 過濾已知適應症
+        # KG 預測已經在生成時過濾了已知適應症
+        # 但仍做額外檢查以確保一致性
         filtered_count = 0
         for _, row in kg_df.iterrows():
             drug_name = row.get("ingredient", "")
             disease_name = row.get("potential_indication", "")
+            similarity_score = row.get("similarity_score", None)
 
             if not is_existing_indication(drug_name, disease_name, existing_indications):
                 kg_results.append({
@@ -109,15 +111,16 @@ def main():
                     "drug_name": drug_name,
                     "ingredient": drug_name,
                     "disease_name": disease_name,
-                    "score": None,  # KG 沒有分數
+                    "score": similarity_score,  # 使用靶點相似度分數
                     "source": "KG",
                     "license_id": row.get("license_id", ""),
                     "brand_name": row.get("brand_name", ""),
+                    "similar_drug": row.get("similar_drug", ""),
                 })
             else:
                 filtered_count += 1
 
-        print(f"  過濾掉已知適應症: {filtered_count}")
+        print(f"  額外過濾已知適應症: {filtered_count}")
         print(f"  保留的新適應症候選: {len(kg_results)}")
     else:
         print("  警告: repurposing_candidates.csv 不存在")

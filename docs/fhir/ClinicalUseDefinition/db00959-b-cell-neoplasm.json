@@ -24,7 +24,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "B-cell neoplasm"
+        "text": "b-cell neoplasm"
       }
     }
   },
@@ -36,6 +36,10 @@
     {
       "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
       "valueString": "KG"
+    },
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.764706
     }
   ],
   "warning": {
