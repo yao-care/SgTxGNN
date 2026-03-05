@@ -106,6 +106,8 @@ def build_name_index(drugbank_df: pd.DataFrame) -> Dict[str, str]:
         "DEXTROSE MONOHYDRATE": "GLUCOSE",
         "DEXTROSE": "GLUCOSE",
         "GLUCOSE MONOHYDRATE": "GLUCOSE",
+        "HYDROUS DEXTROSE": "GLUCOSE",
+        "DEXTROSE HYDROUS": "GLUCOSE",
         # 鋁化合物
         "ALUMINUM HYDROXIDE": "ALUMINIUM HYDROXIDE",
         "ALUMINUM HYDROXIDE GEL": "ALUMINIUM HYDROXIDE",
@@ -113,6 +115,66 @@ def build_name_index(drugbank_df: pd.DataFrame) -> Dict[str, str]:
         # 常見縮寫
         "5-FU": "FLUOROURACIL",
         "5-FLUOROURACIL": "FLUOROURACIL",
+        # ===== 新加坡 HSA 常見名稱 =====
+        # 英式→DrugBank
+        "AMOXYCILLIN": "AMOXICILLIN",
+        "GUAIPHENESIN": "GUAIFENESIN",
+        "SULPHAMETHOXAZOLE": "SULFAMETHOXAZOLE",
+        # INN → DrugBank
+        "GLIBENCLAMIDE": "GLYBURIDE",
+        "SOMATROPIN": "SOMATOTROPIN",
+        # HYOSCINE 系列 → SCOPOLAMINE
+        "HYOSCINE": "SCOPOLAMINE",
+        "HYOSCINE N-BUTYLBROMIDE": "BUTYLSCOPOLAMINE",
+        "HYOSCINE BUTYLBROMIDE": "BUTYLSCOPOLAMINE",
+        "SCOPOLAMINE BUTYLBROMIDE": "BUTYLSCOPOLAMINE",
+        # 鹽類 → 基本形式
+        "SODIUM VALPROATE": "VALPROIC ACID",
+        "VALPROATE SODIUM": "VALPROIC ACID",
+        "SODIUM FUSIDATE": "FUSIDIC ACID",
+        "FUSIDIC ACID SODIUM": "FUSIDIC ACID",
+        # 前驅藥/酯類 → 基本形式
+        "OLMESARTAN MEDOXOMIL": "OLMESARTAN",
+        "CANDESARTAN CILEXETIL": "CANDESARTAN",
+        "FOSINOPRIL SODIUM": "FOSINOPRIL",
+        "LISINOPRIL DIHYDRATE": "LISINOPRIL",
+        # Cetirizine 變體
+        "CETIRIZINE DIHYDROCHLORIDE": "CETIRIZINE",
+        "CETIRIZINE 2HCL": "CETIRIZINE",
+        "CETIRIZINE HCL": "CETIRIZINE",
+        "LEVOCETIRIZINE DIHYDROCHLORIDE": "LEVOCETIRIZINE",
+        "LEVOCETIRIZINE 2HCL": "LEVOCETIRIZINE",
+        # Amfetamine 類
+        "LISDEXAMFETAMINE DIMESYLATE": "LISDEXAMFETAMINE",
+        "LISDEXAMPHETAMINE DIMESYLATE": "LISDEXAMFETAMINE",
+        "LISDEXAMPHETAMINE MESILATE": "LISDEXAMFETAMINE",
+        # Follitropin 類
+        "FOLLITROPIN ALFA": "FOLLITROPIN",
+        "FOLLITROPIN BETA": "FOLLITROPIN",
+        # 特殊名稱/詞序
+        "CARBON ACTIVATED": "ACTIVATED CHARCOAL",
+        "ACTIVATED CARBON": "ACTIVATED CHARCOAL",
+        "CHARCOAL ACTIVATED": "ACTIVATED CHARCOAL",
+        "COAL TAR SOLUTION": "COAL TAR",
+        "COAL TAR PREPARED": "COAL TAR",
+        # 尿素
+        "CARBONYLDIAMIDE": "UREA",
+        "CARBAMIDE": "UREA",
+        # 其他常見
+        "TRIMETAZIDINE DIHYDROCHLORIDE": "TRIMETAZIDINE",
+        "LEUPRORELIN ACETATE": "LEUPROLIDE",
+        "LEUPRORELIN": "LEUPROLIDE",
+        "ALFACALCIDOL": "ALFACALCIDOL",
+        "METFORMIN HYDROCHLORIDE": "METFORMIN",
+        "ATORVASTATIN CALCIUM": "ATORVASTATIN",
+        "ATORVASTATIN CALCIUM TRIHYDRATE": "ATORVASTATIN",
+        "ROSUVASTATIN CALCIUM": "ROSUVASTATIN",
+        "AMLODIPINE BESYLATE": "AMLODIPINE",
+        "AMLODIPINE BESILATE": "AMLODIPINE",
+        "LOSARTAN POTASSIUM": "LOSARTAN",
+        "IRBESARTAN": "IRBESARTAN",
+        "TELMISARTAN": "TELMISARTAN",
+        "VALSARTAN": "VALSARTAN",
     }
 
     for alias, canonical in synonym_map.items():
@@ -168,7 +230,7 @@ def map_ingredient_to_drugbank(
         r"\s+ACETATE$", r"\s+CITRATE$", r"\s+PHOSPHATE$",
         r"\s+BROMIDE$", r"\s+CHLORIDE$", r"\s+TARTRATE$",
         r"\s+HBR$", r"\s+HYDROBROMIDE$", r"\s+FUMARATE$",
-        r"\s+SUCCINATE$", r"\s+MESYLATE$", r"\s+BESYLATE$",
+        r"\s+SUCCINATE$", r"\s+MESYLATE$", r"\s+BESYLATE$", r"\s+BESILATE$",
         r"\s+CALCIUM$", r"\s+MAGNESIUM$", r"\s+NITRATE$",
         r"\s+LACTATE$", r"\s+GLUCONATE$", r"\s+DISODIUM$",
         r"\s+ANHYDROUS$", r"\s+MONOHYDRATE$", r"\s+DIHYDRATE$",
@@ -176,6 +238,11 @@ def map_ingredient_to_drugbank(
         r"\s+DIPROPIONATE$", r"\s+PROPIONATE$", r"\s+ACETONIDE$",
         r"\s+VALERATE$", r"\s+BUTYRATE$", r"\s+MONONITRATE$",
         r"\s+N-BUTYLBROMIDE$",  # HSA 特有格式
+        r"\s+BUTYLBROMIDE$",
+        r"\s+DIHYDROCHLORIDE$", r"\s+2HCL$",  # Cetirizine 類
+        r"\s+DIMESYLATE$", r"\s+DIMESILATE$",  # Lisdexamfetamine
+        r"\s+MEDOXOMIL$", r"\s+CILEXETIL$",  # 前驅藥酯類
+        r"\s+ALFA$", r"\s+BETA$",  # 生物製劑變體
     ]
 
     base_ingredient = normalized or ingredient
