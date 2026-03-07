@@ -13,13 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
+**9 articles** related to arthritis.
 
 ---
 
 ### [Feeling bloated after CNY feasting? Here’s how you can get your gut back on track](https://www.straitstimes.com/singapore/health/feeling-bloated-after-cny-feasting-heres-how-you-can-get-your-gut-back-on-track)
 
-2026-03-06
+2026-03-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/feeling-bloated-after-cny-feasting-heres-how-you-can-get-your-gut-back-on-track)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/feeling-bl
 
 ### [HSA to review regulatory framework for complementary health products](https://www.straitstimes.com/singapore/health/hsa-to-review-regulatory-framework-for-complementary-health-products)
 
-2026-03-06
+2026-03-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/hsa-to-review-regulatory-framework-for-complementary-health-products)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/hsa-to-rev
 
 ### [NUS Medicine launches new integrated nursing-informatics degree programme](https://www.straitstimes.com/singapore/health/nus-medicine-launches-new-integrated-nursing-informatics-degree-programme)
 
-2026-03-06
+2026-03-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-medicine-launches-new-integrated-nursing-informatics-degree-programme)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-medici
 
 ### [Genomics for Kids in ASEAN programme to set up registry to further tackle rare diseases in region](https://www.straitstimes.com/singapore/health/genomics-for-kids-in-asean-programme-to-set-up-registry-to-further-tackle-rare-diseases-in-region)
 
-2026-03-06
+2026-03-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/genomics-for-kids-in-asean-programme-to-set-up-registry-to-further-tackle-rare-diseases-in-region)
 
@@ -51,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/genomics-f
 
 ### [Hydration, regular sleep, gentle exercise: Practical ways to manage hot flushes and night sweats](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
-2026-03-06
+2026-03-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
@@ -59,7 +59,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-
 
 ### [Commentary: Your morning coffee might protect your brain as you age](https://www.channelnewsasia.com/commentary/coffee-benefits-health-how-many-cups-caffeine-dementia-tea-5920006)
 
-2026-03-06
+2026-03-07
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/coffee-benefits-health-how-many-cups-caffeine-dementia-tea-5920006)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/coffee-benefits-health-
 
 ### [My family fell for a phishing scam – and found a buffet of niche insurance plans for everything from kids' illnesses to EV batteries](https://www.channelnewsasia.com/today/adulting/niche-insurance-specialised-lifestyle-health-medical-need-5919356)
 
-2026-03-06
+2026-03-07
 
 Source: [CNA](https://www.channelnewsasia.com/today/adulting/niche-insurance-specialised-lifestyle-health-medical-need-5919356)
 
@@ -75,9 +75,17 @@ Source: [CNA](https://www.channelnewsasia.com/today/adulting/niche-insurance-spe
 
 ### [Can pregnancy damage your teeth? What food cravings, morning sickness and hormones do to your oral health](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
-2026-03-06
+2026-03-07
 
 Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
+
+---
+
+### [Commentary: Strength training may be the key to healthy ageing](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
+
+2026-03-07
+
+Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
 ---
 
