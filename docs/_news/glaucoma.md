@@ -13,13 +13,21 @@ permalink: /news/glaucoma/
 
 ---
 
-**1 articles** related to glaucoma.
+**2 articles** related to glaucoma.
+
+---
+
+### [More younger adults in Singapore developing glaucoma, likely because of untreated myopia](https://www.straitstimes.com/singapore/health/more-younger-adults-develop-glaucoma-because-of-untreated-myopia)
+
+2026-03-08
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-younger-adults-develop-glaucoma-because-of-untreated-myopia)
 
 ---
 
 ### [Myopia now, glaucoma later? The hidden link explained and how to reduce your risk](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
-2026-03-07
+2026-03-08
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
