@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Hydration, regular sleep, gentle exercise: Practical ways to manage hot flushes and night sweats](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
-2026-03-08
+2026-03-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
