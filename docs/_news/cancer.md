@@ -13,7 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/cancer/
 2026-03-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/lifestyle-driven-cancer-risk-persists-despite-singapores-prevention-efforts)
+
+---
+
+### [Breast cancer deaths fall in S’pore despite more cases, thanks to earlier diagnoses and better treatment](https://www.straitstimes.com/singapore/health/breast-cancer-deaths-in-spore-down-despite-more-cases-due-to-earlier-diagnoses-and-improved)
+
+2026-03-10
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/breast-cancer-deaths-in-spore-down-despite-more-cases-due-to-earlier-diagnoses-and-improved)
 
 ---
 

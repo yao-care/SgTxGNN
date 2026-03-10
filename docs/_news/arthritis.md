@@ -13,23 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
-
----
-
-### [NUS Medicine launches new integrated nursing-informatics degree programme](https://www.straitstimes.com/singapore/health/nus-medicine-launches-new-integrated-nursing-informatics-degree-programme)
-
-2026-03-10
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-medicine-launches-new-integrated-nursing-informatics-degree-programme)
-
----
-
-### [Genomics for Kids in ASEAN programme to set up registry to further tackle rare diseases in region](https://www.straitstimes.com/singapore/health/genomics-for-kids-in-asean-programme-to-set-up-registry-to-further-tackle-rare-diseases-in-region)
-
-2026-03-10
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/genomics-for-kids-in-asean-programme-to-set-up-registry-to-further-tackle-rare-diseases-in-region)
+**5 articles** related to arthritis.
 
 ---
 
@@ -38,6 +22,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/genomics-f
 2026-03-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
+
+---
+
+### [Singapore revises healthcare AI guidelines; attains WHO top rating for medical device regulation](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
+
+2026-03-10
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
 
 ---
 
