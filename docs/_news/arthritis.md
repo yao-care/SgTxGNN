@@ -25,7 +25,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-
 
 ---
 
-### [Singapore revises healthcare AI guidelines; attains WHO top rating for medical device regulation](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
+### [Singapore revises healthcare AI guidelines, attains WHO top rating for medical device regulation](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
 
 2026-03-10
 
