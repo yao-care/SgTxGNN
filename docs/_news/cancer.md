@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Lifestyle-driven cancer risk persists despite Singapore’s prevention efforts: Oncologists](https://www.straitstimes.com/singapore/health/lifestyle-driven-cancer-risk-persists-despite-singapores-prevention-efforts)
 
-2026-03-09
+2026-03-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/lifestyle-driven-cancer-risk-persists-despite-singapores-prevention-efforts)
 
