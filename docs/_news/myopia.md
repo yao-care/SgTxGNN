@@ -19,7 +19,7 @@ permalink: /news/myopia/
 
 ### [More younger adults in Singapore developing glaucoma, likely because of untreated myopia](https://www.straitstimes.com/singapore/health/more-younger-adults-develop-glaucoma-because-of-untreated-myopia)
 
-2026-03-10
+2026-03-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-younger-adults-develop-glaucoma-because-of-untreated-myopia)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-young
 
 ### [Myopia now, glaucoma later? The hidden link explained and how to reduce your risk](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
-2026-03-10
+2026-03-11
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-i
 
 ### [Elvin Ng’s eye surgery: Retinal detachment, myopia and the warning signs you should not ignore](https://www.channelnewsasia.com/wellness/retinal-detachment-elvin-ng-myopia-warning-signs-5963411)
 
-2026-03-10
+2026-03-11
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/retinal-detachment-elvin-ng-myopia-warning-signs-5963411)
 
