@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Lifestyle-driven cancer risk persists despite Singapore’s prevention efforts: Oncologists](https://www.straitstimes.com/singapore/health/lifestyle-driven-cancer-risk-persists-despite-singapores-prevention-efforts)
 
-2026-03-11
+2026-03-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/lifestyle-driven-cancer-risk-persists-despite-singapores-prevention-efforts)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/lifestyle-
 
 ### [Breast cancer deaths fall in S’pore despite more cases, thanks to earlier diagnoses and better treatment](https://www.straitstimes.com/singapore/health/breast-cancer-deaths-in-spore-down-despite-more-cases-due-to-earlier-diagnoses-and-improved)
 
-2026-03-11
+2026-03-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/breast-cancer-deaths-in-spore-down-despite-more-cases-due-to-earlier-diagnoses-and-improved)
 

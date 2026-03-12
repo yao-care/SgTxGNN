@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Hydration, regular sleep, gentle exercise: Practical ways to manage hot flushes and night sweats](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
-2026-03-11
+2026-03-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-
 
 ### [Singapore revises healthcare AI guidelines, attains WHO top rating for medical device regulation](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
 
-2026-03-11
+2026-03-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [My family fell for a phishing scam – and found a buffet of niche insurance plans for everything from kids' illnesses to EV batteries](https://www.channelnewsasia.com/today/adulting/niche-insurance-specialised-lifestyle-health-medical-need-5919356)
 
-2026-03-11
+2026-03-12
 
 Source: [CNA](https://www.channelnewsasia.com/today/adulting/niche-insurance-specialised-lifestyle-health-medical-need-5919356)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/today/adulting/niche-insurance-spe
 
 ### [Can pregnancy damage your teeth? What food cravings, morning sickness and hormones do to your oral health](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
-2026-03-11
+2026-03-12
 
 Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-
 
 ### [Commentary: Strength training may be the key to healthy ageing](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
-2026-03-11
+2026-03-12
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
